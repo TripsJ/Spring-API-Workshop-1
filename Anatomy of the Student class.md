@@ -187,4 +187,4 @@ The toString() method defines how an object is represented when passed to a prin
 
 All this is basically boilerplate code and Java developers figured that for some applications, that makes code unreadable so they developped ways around it.
 
-\[\[Lombok\]\]
+[Lombok](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Lombok.md)
