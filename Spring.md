@@ -1,18 +1,18 @@
-# What is Spring
+## What is Spring
 
 Spring is the most popular Java Framework
 It can take most of the object generation and initialisation out of your hands.
 
-# How to get Started
+## How to get Started
 
 it's fairly simple to get started,
 Go to https://start.spring.io
 
-# Spring boot and Spring initializer
+### Spring boot and Spring initializer
 
 The Website you are currently on is the Spring Initializer
 
-\[\[Pasted image 20230330141920.png\]\]
+![Spring Initializer](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230330141920.png)
 
 Add Spring Web to the dependencies
 Also add Lombok to the dependencies
@@ -46,4 +46,4 @@ This is the Starting point of your Project. No more manual Package creation, the
 
 At this point it is time to Go back to your IDE.
 
-\[\[Importing the Starter\]\]
+[Importing the Starter](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Importing%20the%20Starter.md)
