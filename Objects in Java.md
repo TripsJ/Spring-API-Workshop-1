@@ -122,7 +122,13 @@ Imagine a Project where we need Students with fields like this
 
 **Class Student**
 
-\[\[5. Projects/Workshop Java Spring API/#\^Table\]\]
+| Name             | TYPE      | VALUE        |
+| ---------------- | --------- | ------------ |
+| Username         | String    | Jérome Trips |
+| Promotion        | Promotion | Hamilton 7   |
+| Orientation      | String    | Java         |
+| Course taken     | Course[]  | WebDev       |
+| CoachResponsible | Coach     | Peter        | 
 
 Suddenly the Object gets a lot more complex and would look like this:
 
@@ -243,4 +249,4 @@ and all this does is represent a Student, we still need Promotions, Courses and 
 
 that makes for a lot of typing work, and makes your code harder to read. There are still a few interesting things to go through in our student class, so, as we did earlier with Hello World, let us see the Student class line by line
 
-\[\[Anatomy of the Student class\]\]
+[Anatomy of the Student class](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Anatomy%20of%20the%20Student%20class.md)
