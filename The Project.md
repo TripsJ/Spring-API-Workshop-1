@@ -18,4 +18,4 @@ A Database.
 
 In order to achieve that, we will make use of a very popular Framework called Spring.
 
-\[\[5. Projects/Workshop Java Spring API/Spring\]\]
+[Spring](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Spring.md)
