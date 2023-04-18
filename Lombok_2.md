@@ -157,4 +157,4 @@ It is in fact a lot easier to read once you get used to the Annotations.
 But what does this code represent ?
 Let us investigate that and finish our Student Class.
 
-\[\[Data Classes\]\]
+[Data Classes](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Data%20Classes.md)
