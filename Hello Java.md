@@ -81,4 +81,4 @@ Ok, Enough with the Jokes. As you can see, Java is complicated and requires a lo
 
 Fortunately There are Frameworks and Tools out there, that can make working with Java a lot easier. Before we talk about those, i want to just quickly disect the Code we wrote so you can understand what the individual components do.
 
-\[\[Anatomy of Hello World\]\]
+[Anatomy of Hello World](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Anatomy%20of%20Hello%20World.md)
