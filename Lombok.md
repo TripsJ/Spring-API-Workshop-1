@@ -3,7 +3,7 @@
 Project Lombok aims to simplify Java developement by removing a lot of boilerplate code and replace it with annotations
 
 [Project Lombok](https://projectlombok.org)
-[Lombok tutorial](https://www.youtube.com/watch?v=z7bsNF2Dtf0)
+
 
 To import Project Lombok into your Project, open your pom.xml file and add the following dependency in the <dependencies>
 section of your file.
@@ -22,11 +22,9 @@ If you followed the guide to this point, it is already there because we included
 
 now right click on your pom.xml file Maven \> Update Project
 
-You are presented with a window similar to the following
+You are presented with a window.
 
-\[\[Pasted image 20230331121750.png\]\]
-
-verify that Update Project from pom.xml is checked and leave everything else as is.
+Verify that Update Project from pom.xml is checked and leave everything else as is.
 Click Ok and observe Eclipse reloading your project for a second.
 
 Now you know how to reload dependencies for your project.
@@ -277,4 +275,4 @@ Without the toString method we do not need the @Overwrite anymore either so you 
 
 In the next Section, we will further slim down our code by Using lombok to require even less boilerplate code.
 
-\[\[Lombok_2\]\]
+[Lombok part 2](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Lombok_2.md)
