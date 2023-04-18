@@ -7,7 +7,7 @@ File \> Open Projects from file System \> navigate to the Folder you extracted f
 
 Your Screen should look somewhat like this
 
-[Pasted image 20230330150008.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230330150008.png)
+![Importing](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230330150008.png)
 
 Click Finish.
 
