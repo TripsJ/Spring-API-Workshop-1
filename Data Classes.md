@@ -99,33 +99,61 @@ Leave the @NoArgsConstructor in for now, we need it later.
 
 Based on that template we can now create all the Data Classes we need.
 
+
 ### The Promotion class
 
 A promotion is a group of students pursuing the same courses at the same time
 
 we need the following information on promotion
 
-\[\[5. Projects/Workshop Java Spring API/#\^Table1\]\]
+
+
+| Attribute         | Datatype  | Constant | Explanation                         |
+| ----------------- | --------- | -------- | ----------------------------------- |
+| id                | int       | no       | id of the Table Row                 |
+| name              | String    | no       | Name of the Promotion               |
+| starDate          | LocalDate | no       | Start Date of the Promotion         |
+| endDate           | LocalDate | no       | Projected End Date of the promotion |
+| headCoach         | Coach     | no       | Coach in charge of the Promotion    |
+| includedtStudents | Student[] | no       | Array of all included Students      | 
+
+
 
 ### The Coach class
 
 For a coach we need the following info
 
-\[\[5. Projects/Workshop Java Spring API/#\^Table3\]\]
+
+
+| Name          | Datatype | Constant | Explanation                          |
+| ------------- | -------- | -------- | ------------------------------------ |
+| id            | int      | no       | Database row id                      |
+| name          | String   | no       | Coaches lastname                     |
+| firstname     | String   | no       | Coaches  firstname                   |
+| expertise     | String[] | no       | list of subjects the coach can teach |
+| givingCourses | Course[] | no       | List of courses the coache teaches   |
+
+
 
 ## The Course Class
 
 for a course we will need the following info
 
-\[\[5. Projects/Workshop Java Spring API/#\^Table4\]\]
+ Name              | Datatype  | Constant | Explanation                           |
+| ----------------- | --------- | -------- | ------------------------------------- |
+| id                | int       | no       | Database row id                       |
+| subject           | String    | no       | Subject of the course                 |
+| responsibleCoach  | Coach     | no       | Coach teaching the course             |
+| studentsAttending | Student[] | no       | List of students Attending the course |
+
+
 Once tose are build, it might be a good idea to remove the responsible Coach from the student class, as a Coach is responsible for a promotion or a course not a particular student.
 
 Also we should replace the Students username with a first and a last name.
 
 Go ahaead and try building your Dataclasses following the example of our student class and the outline in the table below.
 
-Hint: Java has a Datatype to handle Dates.
 
 go take a look at a possible implementation here:
 
-\[\[Our Dataclasses\]\]
+[Our Dataclasses](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Our%20Dataclasses.md)
