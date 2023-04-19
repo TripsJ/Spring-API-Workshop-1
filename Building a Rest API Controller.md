@@ -47,8 +47,6 @@ left click and select Run As \> Java Application
 That starts a Tomcat webserver, by default on port 8080
 Next we open postman and post an empty request to /student on our local Host
 
-\[\[Pasted image 20230417142639.png\]\]
-
 and if all goes well it returns saved.
 Now we will add code allowing us to send json as a parameter in the body of our request and print that to the console
 
@@ -278,7 +276,7 @@ Right now we can test our API using a tool like Postman.
 
 To do that go to the top menu bar of your IDE and click on the Green Round Play Button.
 
-\[\[Pasted image 20230418145046.png\]\]
+![test your Code](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230418145046.png)
 
 Spring should now launch its own embedded web server with your application. By default it launches on port 8080 on your local machine.
 
@@ -286,15 +284,16 @@ Now we can send a couple of requests as illutrated below, using Postman
 
 ### GetAll
 
-\[\[5. Projects/Workshop Java Spring API/0_Resources/Images/getAll.png\]\]
+![Get All Postman](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/getAll.png)
 
 ### GetById
 
-\[\[5. Projects/Workshop Java Spring API/0_Resources/Images/getById.png\]\]
+![GetById](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/getById.png)
 
 ### Post
 
-\[\[5. Projects/Workshop Java Spring API/0_Resources/Images/post.png\]\]
+![PostRequest](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/post.png)
+
 
 You will notice that we recieve our Get responses as Json Data. Spring does this by default and that's good since it is the defacto standard for api responses.
 
