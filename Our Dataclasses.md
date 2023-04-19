@@ -1,6 +1,10 @@
+# Implementation of the Data classes
+
+In this section i will show you a possible implementation of the Classes we will use to represent our Data
+
 The Classes we implemented should now look like this:
 
-\## Student class
+## Student class
 
 ``` java
 package org.workshop.spring.CourseApi;
@@ -113,4 +117,4 @@ public class Promotion {
 
 Now that we have Classes that represent our Data and a Spring Boot Framework set up, we can use that Framework to create our Rest Api starting with:
 
-\[\[Building a Rest API Controller\]\]
+[Building a Rest API Controller](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Building%20a%20Rest%20API%20Controller.md)
