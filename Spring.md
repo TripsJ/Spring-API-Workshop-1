@@ -2,6 +2,9 @@
 
 Spring is the most popular Java Framework
 It can take most of the object generation and initialisation out of your hands.
+It also provides a lot of annotations to make complex developement tasks a breeze.
+On top of Spring, a lot of starter packages were developped to facilitate dependency management.
+A lot of those starte packager have been included into Spring Boot.
 
 ## How to get Started
 
