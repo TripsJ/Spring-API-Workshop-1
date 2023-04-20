@@ -5,6 +5,7 @@ The Following are the sources i used for the creation of this workshop. They are
 - Baeldung's Spring boot tutorial: [Learn Spring Boot | Baeldung](https://www.baeldung.com/spring-boot)
 - geeksforgeeks Java Tutorial: [Java Tutorial | Learn Java Programming](https://www.geeksforgeeks.org/java/)
 - W3 Schools Java tutorial [Java Tutorial](https://www.w3schools.com/java/default.asp)
+- Project Lombok: [Project Lombok](https://projectlombok.org)
 
 Screenshots are taken from:
 
