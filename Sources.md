@@ -1,0 +1,13 @@
+The Following are the sources i used for the creation of this workshop. They are listed here in no particular order.
+
+- The Official Oracle Java Documentation at [Lesson: Language Basics (The Java™ Tutorials > Learning the Java Language)](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/)
+- The Official Spring Documentation: [Spring | Home](https://spring.io)
+- Baeldung's Spring boot tutorial: [Learn Spring Boot | Baeldung](https://www.baeldung.com/spring-boot)
+- geeksforgeeks Java Tutorial: [Java Tutorial | Learn Java Programming](https://www.geeksforgeeks.org/java/)
+- W3 Schools Java tutorial [Java Tutorial](https://www.w3schools.com/java/default.asp)
+
+Screenshots are taken from:
+
+-Eclipse IDE from The Eclipse Foundation: [The Community for Open Innovation and Collaboration | The Eclipse Foundation](https://www.eclipse.org)
+
+- Spring Initializer: [Spring Initializr](https://start.spring.io)
