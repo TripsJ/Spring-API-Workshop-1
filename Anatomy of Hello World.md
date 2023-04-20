@@ -68,7 +68,7 @@ public is the access modifier as we saw before.
 
 **void** is the return type, so the type of data the method gives back. in this case it returns nothing, thus the type is void
 
-**(String\[\] args)** is the argument, so the type of data that is passed along with the method when the method is called
+**(String[] args)** is the argument, so the type of data that is passed along with the method when the method is called
 in this case it is an array (represented by \[\]) of Strings and said array is named args.
 
 ``` java
@@ -87,4 +87,6 @@ with those components defined we can compile and execute our program.
 
 Using methods and classes we can create our own Objects to represent our own Data and Build our very own Projects.
 
-[The Project](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/The%20Project.md)
+Before we do that, we need to get to know a few Datatypes. 
+
+[Datatypes](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Datatypes.md)

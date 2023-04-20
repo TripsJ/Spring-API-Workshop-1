@@ -300,3 +300,23 @@ You will notice that we recieve our Get responses as Json Data. Spring does this
 The responses also include Http Status codes without us having to specify it, again spring has some sensible defaults here.
 
 Spring also takes care of converting our Json Data into Student objects for the Post request.
+
+## Write Your own Controllers
+
+Remember how we still have a Promotion Class, a Course Class and a Coach class?
+
+For each of those classes, write a Controller named according to the Shema ClassController.
+
+That controller should include a Post Method that takes Json as input and returns a String " Class saved" upon successfull execution.
+
+It also should include a get method and a getById method, the later using an id as a parameter.
+
+Use dummy data to test it for now. in the futur we will retrieve data from our Database.
+
+I will show you a solution on the next page. 
+It's all a matter of practice and repetition is the way to get used to a syntax.
+
+Also make sure to test your Controllers using Postman.
+
+
+[The Controllers]()
