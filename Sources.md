@@ -3,6 +3,7 @@ The Following are the sources i used for the creation of this workshop. They are
 - The Official Oracle Java Documentation at [Lesson: Language Basics (The Java™ Tutorials > Learning the Java Language)](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/)
 - The Official Spring Documentation: [Spring | Home](https://spring.io)
 - Baeldung's Spring boot tutorial: [Learn Spring Boot | Baeldung](https://www.baeldung.com/spring-boot)
+- Baeldung's JPA Relations tutorial: [Working with Relationships in Spring Data REST | Baeldung](https://www.baeldung.com/spring-data-rest-relationships)
 - geeksforgeeks Java Tutorial: [Java Tutorial | Learn Java Programming](https://www.geeksforgeeks.org/java/)
 - W3 Schools Java tutorial [Java Tutorial](https://www.w3schools.com/java/default.asp)
 - Project Lombok: [Project Lombok](https://projectlombok.org)

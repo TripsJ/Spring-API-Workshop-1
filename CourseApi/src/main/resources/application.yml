@@ -1,0 +1,19 @@
+spring:
+
+    jpa:
+
+        hibernate:
+
+            ddl-auto: update
+
+        show-sql: true
+
+    datasource:
+
+        url: jdbc:mysql://localhost:6033/testdb
+
+        username: user
+
+        password: 1234
+
+        driver-class-name: com.mysql.cj.jdbc.Driver

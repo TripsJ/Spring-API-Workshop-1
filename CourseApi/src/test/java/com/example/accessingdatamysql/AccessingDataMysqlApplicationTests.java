@@ -1,10 +1,10 @@
-package org.workshop.spring.CourseApi;
+package com.example.accessingdatamysql;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CourseApiApplicationTests {
+class AccessingDataMysqlApplicationTests {
 
 	@Test
 	void contextLoads() {

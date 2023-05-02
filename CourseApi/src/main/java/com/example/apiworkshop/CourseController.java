@@ -1,8 +1,9 @@
-package org.workshop.spring.CourseApi;
+package com.example.apiworkshop;
 
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -12,13 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CourseController {
 	
-	
-	
+	@Autowired
+	private CourseRepository courseRepository;
 
 
 
 	@PostMapping("/course")
-	public String saveCourse(@RequestBody Student c) {
+	public String saveCourse(@RequestBody Course c) {
 		//Code to save student to Database
 		System.out.print(c);
 		return "course saved";
