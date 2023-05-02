@@ -44,16 +44,16 @@ As we can See in our Diagram above, we do not have One To One Relationships. as 
 Our Database contains a couple of One to many relationships, i will show you how to implement the relationship between Promotion and Student, but the same applies to Coaches and Courses or Coaches and Promotions.
 
 First we go to the One part of our relationship, in this case the Promotion class, specifically its containedStudents[] field.
-we annotate this field with @OneToMany 
+we annotate this field with @ManyToOne 
 
-Next we go to our Many end of the relationship, the Students class, and annotate its promotion field wit the invers relation @ManyToOne. 
+Next we go to our Many end of the relationship, the Students class, and annotate its promotion field wit the invers relation @OneToMany. 
 
 Now we need to get back to our Promotion and tell Java wich field the relationship is supposed to use we do that by adding to our @OneToMany a parameter (mappedBy = "Name of the corresponding @ManyToOne Field ").
 
 ```Java
 @OneToMany(mappedBy = "promotion")
 
-private Student[] containedStudents;
+private List<Student> containedStudents;
 ```
 
 and that's it. 

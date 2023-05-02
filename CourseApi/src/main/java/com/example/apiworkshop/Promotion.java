@@ -1,11 +1,13 @@
 package com.example.apiworkshop;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -25,9 +27,11 @@ public class Promotion {
 	private String name;
 	private LocalDate startDate;
 	private LocalDate endDate;
-	@OneToMany(mappedBy = "headCoachOf")
+	@ManyToOne
+	
 	private Coach headCoach;
+	
 	@OneToMany(mappedBy = "promotion")
-	private Student[] containedStudents;
+	private List<Student> containedStudents;
 
 }

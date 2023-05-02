@@ -101,7 +101,7 @@ public class Course {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
 	private String subject;
-	@OneToMany(mappedBy= "givingCourses")
+	@ManyToOne
 	private Coach responsibleCoach;
 	@ManyToMany(mappedBy ="courses" )
 	private Student[] attendingStudents;
@@ -140,7 +140,7 @@ public class Promotion {
 	private String name;
 	private LocalDate startDate;
 	private LocalDate endDate;
-	@OneToMany(mappedBy = "headCoachOf")
+	@ManyToOne
 	private Coach headCoach;
 	@OneToMany(mappedBy = "promotion")
 	private Student[] containedStudents;
@@ -177,9 +177,9 @@ public class Coach {
 	private String firstname;
 	private String lastname;
 	private String[] expertise;
-	@ManyToOne
+	@OneToMany(mappedBy= "responsibleCoach")
 	private Course[] givingCourses;
-	@ManyToOne
+	@OneToMany(mappedBy= "headCoach")
 	private Promotion[] headCoachOf;
 	
 
@@ -189,7 +189,7 @@ public class Coach {
 
 If you now try to run this you can see that the Error we are getting changed to 
 ```
-Property 'com.example.apiworkshop.Course.responsibleCoach' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+Property 'com.example.apiworkshop.Course.randomClass' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
 ```
 
 Wich means it is time to Talk about Arrays and Collections.

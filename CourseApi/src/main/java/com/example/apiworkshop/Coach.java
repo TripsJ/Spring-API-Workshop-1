@@ -1,10 +1,13 @@
 package com.example.apiworkshop;
 
+import java.util.List;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -23,10 +26,12 @@ public class Coach {
 	private String firstname;
 	private String lastname;
 	private String[] expertise;
-	@ManyToOne
-	private Course[] givingCourses;
-	@ManyToOne
-	private Promotion[] headCoachOf;
+	
+	@OneToMany(mappedBy= "responsibleCoach")
+	private List<Course> givingCourses;
+	@OneToMany(mappedBy = "headCoach")
+	
+	private List<Promotion> headCoachOf;
 	
 
 }
