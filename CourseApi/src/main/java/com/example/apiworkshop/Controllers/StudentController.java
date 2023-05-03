@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.apiworkshop.StudentRepository;
 import com.example.apiworkshop.Models.Course;
 import com.example.apiworkshop.Models.Promotion;
 import com.example.apiworkshop.Models.Student;
+import com.example.apiworkshop.Repositories.StudentRepository;
 
 @RestController
 public class StudentController {

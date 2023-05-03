@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.apiworkshop.CoachRepository;
 import com.example.apiworkshop.Models.Coach;
 import com.example.apiworkshop.Models.Course;
+import com.example.apiworkshop.Repositories.CoachRepository;
 
 @RestController
 public class CoachController {
