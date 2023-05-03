@@ -1,4 +1,4 @@
-package com.example.apiworkshop;
+package com.example.apiworkshop.Controllers;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -11,6 +11,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.apiworkshop.PromotionRepository;
+import com.example.apiworkshop.Models.Coach;
+import com.example.apiworkshop.Models.Promotion;
+import com.example.apiworkshop.Models.Student;
 
 @RestController
 public class PromotionController {

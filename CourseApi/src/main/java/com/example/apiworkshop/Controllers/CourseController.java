@@ -1,4 +1,4 @@
-package com.example.apiworkshop;
+package com.example.apiworkshop.Controllers;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.apiworkshop.CourseRepository;
+import com.example.apiworkshop.Models.Coach;
+import com.example.apiworkshop.Models.Course;
+import com.example.apiworkshop.Models.Student;
 
 @RestController
 public class CourseController {

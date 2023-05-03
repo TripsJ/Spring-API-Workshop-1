@@ -18,10 +18,10 @@ One of the Datastructures the Collections Framework can provide is a List. And t
 
 To instantiate the List interface, we use the following Syntax:
 
-1.  List <data-type> list1= new ArrayList();
-2.  List <data-type> list2 = new LinkedList();  
-3.  List <data-type> list3 = new Vector();  
-4.  List <data-type> list4 = new Stack();
+1.  List <datatype> l1= new ArrayList();
+2.  List <datatype> l2 = new LinkedList();  
+3.  List <datatype> l3 = new Vector();  
+4.  List <datatype> l4 = new Stack();
 
 There are several implementations of the List interface that we will not go into because Spring Handels that for us.
 
@@ -66,6 +66,6 @@ As a rule of thumb @OneToMany always stands above Collections.
 
 Once all the changes are done, we can execute our code and login to our phpMyAdmin to see the created tables.
 
-With this we need to find a way to interact with the Database by creating what is known as a Repository.
+Our code has become quite complex and it is high time we looked into organizing it a bit.
 
-[[Repository]]
+[[Refactor]]

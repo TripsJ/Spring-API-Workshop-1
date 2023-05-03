@@ -1,4 +1,4 @@
-package com.example.apiworkshop;
+package com.example.apiworkshop.Models;
 
 import java.time.LocalDate;
 import java.util.List;
