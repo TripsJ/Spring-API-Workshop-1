@@ -47,6 +47,6 @@ Extract it to a folder.
 
 This is the Starting point of your Project. No more manual Package creation, the configuration is also created for us and the included dependencies are at the latest version already.
 
-At this point it is time to Go back to your IDE.
+In order To use Spring Effectively, you will need to understand 2 important concepts first
 
-[Importing the Starter](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Importing%20the%20Starter.md)
+[[Inversion of Control]]
