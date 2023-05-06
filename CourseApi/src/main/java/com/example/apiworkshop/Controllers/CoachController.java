@@ -1,7 +1,12 @@
 package com.example.apiworkshop.Controllers;
 
-import java.util.Arrays;
+
+
+
+
 import java.util.List;
+
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,66 +16,40 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.apiworkshop.Models.Coach;
-import com.example.apiworkshop.Models.Course;
 import com.example.apiworkshop.Repositories.CoachRepository;
+
 
 @RestController
 public class CoachController {
 	
 	@Autowired
 	private CoachRepository coachRepository;
+	
+	
+	
 
 
 
 	@PostMapping("/coach")
-	public String saveCoach(@RequestBody Coach c) {
-		//Code to save student to Database
+	public Coach saveCoach(@RequestBody Coach c) {
+	    	
+		coachRepository.save(c);
 		System.out.print(c);
-		return "Coach saved";
+		return c;
 	}
 	
-
-
 	@GetMapping("/coach")
-	public List<Coach> getAll(){
-		Course Course1 = new Course();
-		Course[] courses = {Course1};
-		String[] expertise = new String[] {"Java","JavaScript"};
 	
-		Coach c1 = new Coach(100,"Peter","Bauer",expertise,courses);
-		Coach c2 = new Coach(10,"Jiminy","Cricket",expertise,courses);
-		Coach c3 = new Coach(123,"Jane","Doe",expertise,courses);
-		
-		List<Coach> s = Arrays.asList(c1,c2,c3);
-		
-		
-		System.out.print(s);
-		return s;
-		
-				
-	
-}
-	@GetMapping("/coach/{cid}")
-	public Coach getById(@PathVariable Integer cid) {
-		
-		Course Course1 = new Course();
-		Course[] courses = {Course1};
-		String[] expertise = new String[] {"Java","JavaScript"};
-		
-		if (cid == 100) {
-			return new Coach(100,"Peter","Bauer",expertise,courses);
-			
-		}
-		else if(cid == 10) {
-			return new Coach(10,"Jiminy","Cricket",expertise,courses);
-		}
-		else if(cid == 123) {
-			return new Coach(123,"Jane","Doe",expertise,courses);
-		}
-		else {
-			return null;
-		}
-		
+	public List<Coach> findAll(){
+	    return coachRepository.findAll();
 	}
+	
+	@GetMapping("/coach/{cid}")
+	public Optional<Coach> getById(@PathVariable Integer cid) {
+	    return coachRepository.findById(cid);
+	    
+	}
+
+	
 
 }

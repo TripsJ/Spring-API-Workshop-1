@@ -236,3 +236,73 @@ You can also create empty entries, but we will fix that later.
 
 ## The Get methods
 
+Now we would need 2 get methods. One to retrieve all the Student entries in our Database and One that takes an Id as a parameter and retrieves that specific Student.
+
+Getting all the Students is easy. In fact our repository inherits a method called findAll() that returns a list of Students.
+
+so we create a Get Mapping just like before, but instead of returning Static Objects, we return the result of findAll().
+
+```Java
+@GetMapping("/student")
+
+public List<Student> findAll(){
+
+return studentRepository.findAll();
+
+}
+```
+
+Of course that needs us to import @GetMapping, List and our own Student Model, but your IDE will complain as usual. 
+
+And While we are at it, we can add a findById method that takes an Id as a parameter from the url.
+
+We already did that in our original controller. We nned to make use of @PathVariable like this.
+
+```Java
+@GetMapping("/student/{sid}")
+
+public void getById(@PathVariable Integer sid) {
+```
+
+in this example i set the return Type to void but that wont do.
+
+You would think that a method like this returns a Student Object, but what if the Id we give is not in the Database?
+
+We need a type that can potentially be something else. Turns Our there is a Collection in java.util we can use, called Optional<T>
+Let us use that.
+
+```Java
+public Optional<Student> getById(@PathVariable Integer sid) {
+```
+We need to Import PathVariable as well as Optional again.
+
+Within our Repository, there is a method called findbyId that can take an Integer as parameter and returns an Optional so we can call on that.
+
+```Java
+public Optional<Student> getById(@PathVariable Integer sid) {
+
+return studentRepository.findById(sid);
+
+}
+```
+
+Now we can test our controllers by running a few get requests through Postman.
+
+## Get All
+
+![[Pasted image 20230506145825.png]]
+
+## Get by Id
+
+With an existing id
+
+![[Pasted image 20230506150001.png]]
+
+with one that does not exist.
+
+![[Pasted image 20230506150113.png]]
+
+
+And now we can do the same for our other Controllers.
+
+[[All Controllers]]
