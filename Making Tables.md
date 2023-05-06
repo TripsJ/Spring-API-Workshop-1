@@ -143,4 +143,4 @@ Next we need to make sure our Coach, Promotion and Course classes are their resp
 
 **relations need to be established FOR TABLE CREATION TO WORK**
 
-[[Our Tables]]
+[Our Tables](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Our%20Tables.md)
