@@ -151,4 +151,4 @@ All we have done here is added the Entity and Table annotation as well as the Id
 
 If you try and run this you'll be greeted by a random error from JDBC and that is due to the fact that right now Java doesent know how to handle references to other tables but we will fix that by introducing Relationships.
 
-[Relationships](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Relationships.md)
+[[Relationships]]

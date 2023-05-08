@@ -264,4 +264,4 @@ You can test your controllers with postman, as demonstrated on the Student Contr
 
 Now that our controllers are ready and tested we can start working on keeping our data persistant.
 
-[Getting ready for persistance](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Getting%20ready%20for%20persistance.md)
+[Getting ready for persistance](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Getting%20Ready%20for%20persistance.md)

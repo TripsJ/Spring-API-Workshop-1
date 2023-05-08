@@ -67,7 +67,8 @@ What we want our Controllers to do is
 2. Verify that Json send by post requests is valid
 3. Respond to a Get request with all entries of a Given Dataclass. GET student/ would return a list of Students
 4. Respond to a get Request containing an id, with the Corresponding student
-5. Return an error if the Data in the Post request is not valid.
+5. Be able to respond to a put request by updating the Data.
+6. Return an error if the Data in the Post request is not valid.
 
 To make things easier, we will clean out our Student class until it looks like this.
 
@@ -302,7 +303,7 @@ with one that does not exist.
 
 ![[Pasted image 20230506150113.png]]
 
+You might Notice that returning null upon not finding anything still counts as a 200 ok Http Status code. And that is due to the fact that we did not define what to do in case of an error.
 
-And now we can do the same for our other Controllers.
+[[Exceptions]]
 
-[[All Controllers]]

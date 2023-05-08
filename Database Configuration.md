@@ -87,4 +87,4 @@ We should however modify that once we are all set up and all tables are created.
 
 Speaking of Tables, we  need to modify our Dataclasses so Spring and JPA know that they have to deal with a table now.
 
-[Making Tables](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Making%20Tables.md)
+[[Making Tables]]

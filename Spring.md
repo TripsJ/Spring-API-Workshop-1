@@ -49,4 +49,4 @@ This is the Starting point of your Project. No more manual Package creation, the
 
 In order To use Spring Effectively, you will need to understand 2 important concepts first
 
-[Inversion of Control](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Inversion%20of%20Control.md)
+[[Inversion of Control]]
