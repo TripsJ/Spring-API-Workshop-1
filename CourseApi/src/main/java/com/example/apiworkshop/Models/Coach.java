@@ -2,6 +2,7 @@ package com.example.apiworkshop.Models;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -26,9 +27,10 @@ public class Coach {
 	private String firstname;
 	private String lastname;
 	private String[] expertise;
-	
+	@JsonManagedReference
 	@OneToMany(mappedBy= "responsibleCoach")
 	private List<Course> givingCourses;
+	@JsonManagedReference
 	@OneToMany(mappedBy = "headCoach")
 	
 	private List<Promotion> headCoachOf;

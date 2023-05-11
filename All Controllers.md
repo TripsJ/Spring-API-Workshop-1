@@ -360,3 +360,5 @@ return "deleted";
 ```
 
 You will notice that they all follow the same pattern. They also all only import their respective Model and Repository.
+
+[[Infinite Recursion]]

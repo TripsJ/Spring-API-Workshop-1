@@ -2,6 +2,7 @@ package com.example.apiworkshop.Models;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
@@ -33,10 +34,12 @@ private Integer id;
 private String name;
 
 private String firstname;
+@JsonBackReference
 @ManyToOne
 private Promotion promotion;
 
 private String orientation;
+@JsonBackReference
 @ManyToMany(cascade = CascadeType.ALL)
 @JoinTable(name = "Student_Promotion", 
 joinColumns = @JoinColumn(name = "student_id", referencedColumnName = "id"), 

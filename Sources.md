@@ -9,9 +9,8 @@ The Following are the sources i used for the creation of this workshop. They are
 - W3 Schools Java tutorial [Java Tutorial](https://www.w3schools.com/java/default.asp)
 - Project Lombok: [Project Lombok](https://projectlombok.org)
 - Wikipedia Article on Wrapper Classes: [Primitive wrapper class in Java - Wikipedia](https://en.wikipedia.org/wiki/Primitive_wrapper_class_in_Java)
-
 Screenshots are taken from:
 
-- Eclipse IDE from The Eclipse Foundation: [The Community for Open Innovation and Collaboration | The Eclipse Foundation](https://www.eclipse.org)
+-Eclipse IDE from The Eclipse Foundation: [The Community for Open Innovation and Collaboration | The Eclipse Foundation](https://www.eclipse.org)
 
 - Spring Initializer: [Spring Initializr](https://start.spring.io)

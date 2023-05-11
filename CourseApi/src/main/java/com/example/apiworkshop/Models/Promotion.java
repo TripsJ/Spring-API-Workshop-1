@@ -3,6 +3,9 @@ package com.example.apiworkshop.Models;
 import java.time.LocalDate;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -27,10 +30,11 @@ public class Promotion {
 	private String name;
 	private LocalDate startDate;
 	private LocalDate endDate;
+	@JsonBackReference
 	@ManyToOne
 	
 	private Coach headCoach;
-	
+	@JsonManagedReference
 	@OneToMany(mappedBy = "promotion")
 	private List<Student> containedStudents;
 

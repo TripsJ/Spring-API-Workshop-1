@@ -5,6 +5,8 @@ package com.example.apiworkshop.Models;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -27,8 +29,10 @@ public class Course {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
 	private String subject;
+	@JsonBackReference
 	@ManyToOne
 	private Coach responsibleCoach;
+	@JsonManagedReference
 	@ManyToMany(mappedBy ="courses" )
 	private List<Student> attendingStudents;
 
