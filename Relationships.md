@@ -4,7 +4,7 @@ In order to get an idea how our tables relate to each other, it is a good idea t
 
 These diagrams are visual representations of a database structure and look a bit like this.
 
-![[Pasted image 20230502105457.png]]
+![Pasted image 20230502105457.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230502111708.png)
 
 You can use tools like draw.io or [smartdraw.com](https://cloud.smartdraw.com) to create them.
 
