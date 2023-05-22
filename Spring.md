@@ -100,4 +100,4 @@ To use Spring effectively, you will need to understand 2 important concepts firs
 
   
 
-[[Inversion of Control]]
+[Inversion of Control](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Inversion%20of%20Control.md)
