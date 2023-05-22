@@ -68,4 +68,4 @@ Once all the changes are done, we can execute our code and login to our PhpMyAdm
 
 Our code has become quite complex, and it is high time we looked into organizing it a bit.
 
-[[Refactor]]
+[Refactor](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Refactor.md)
