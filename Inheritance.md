@@ -1,3 +1,5 @@
+# Inheritance and Repositories
+
 Our aim is to implement so-called CRUD operations in our code, so that a user can interact with our database by using only our API.
 
 CRUD stands for Create, Read, Update, Delete wich are the four main operations we can execute on data.
@@ -57,4 +59,4 @@ super() calls the constructor of the parent class.
 
 Now that we know that, let's have a look at the repository I mentioned before.
 
-[[Repository]]
+[Repository](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Repository.md)
