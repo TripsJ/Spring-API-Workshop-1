@@ -41,4 +41,4 @@ Do not forget that JpaRepository needs to be imported, as does our Model for eac
 
 you go and create repositories for Promotion, Coach, and Course too.
 
-[[Our Repositories]]
+[Our Repositories](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Our%20Repositories.md)
