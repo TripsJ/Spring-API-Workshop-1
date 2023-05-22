@@ -228,17 +228,11 @@ Imagine a Project where we need Students with fields like this
   
 
 | Name | TYPE | VALUE |
-
 | ---------------- | --------- | ------------ |
-
 | Username | String | Jérome Trips |
-
 | Promotion | Promotion | Hamilton 7 |
-
 | Orientation | String | Java |
-
 | Course taken | Course[] | WebDev |
-
 | CoachResponsible | Coach | Peter |
 
   
