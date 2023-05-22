@@ -18,6 +18,6 @@ package org.workshop.spring.CourseApi.Repositories
 
 We are going to create files in that package that will help us to access our database.
 
-[[Inheritance]]
+[Inheritance](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Inheritance.md)
 
 
