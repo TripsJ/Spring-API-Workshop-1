@@ -194,4 +194,4 @@ Property 'com.example.apiworkshop.Course.randomClass' is not a collection and ma
 
 Which means it is time to talk about Arrays and Collections.
 
-[[Collections]]
+[Collections](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Collections.md)
