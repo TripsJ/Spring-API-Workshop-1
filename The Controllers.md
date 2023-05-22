@@ -1,5 +1,7 @@
 
-The Following are the controllers for the various classes, for now they are filled with dummy data as we do not yet have a database.
+The following are the controllers for the various classes.
+
+For now, they are filled with dummy data as we do not yet have a database.
 
 ## CoachController
 
@@ -73,13 +75,13 @@ public class CoachController {
 
 ```
 
-This controller is pretty similar to the student controller except for the fact that a Coach object needs some expertise in the form of an Array wich is this
+This controller is like the student controller, except for the fact that a Coach object needs some expertise in the form of an Array:
 
 ```Java
 String[] expertise = new String[] {"Java","JavaScript"};
 ```
 
-In Java, Arrays are declared with [] at the end of the type the Array will contain. An arrays content can be defined between {}.
+In Java, Arrays are declared with [] at the end of the type the Array will contain. An array's content can be defined between {}.
 
 ## Course Controller
 
@@ -160,7 +162,7 @@ JAVA			return new Course(10,"Intro to Java",coach,attending);
 
 ```
 
-In here there is nothing new, we just define all the empty objects we need in order to create a course.
+In here, there is nothing new, we just define all the empty objects we need in order to create a course.
 
 ## Promotion Controller
 
@@ -249,7 +251,7 @@ This is again pretty similar, except for the use of LocalDate.of
 LocalDate.of(2022, Month.NOVEMBER, 2)
 ```
 
-this creates a LocalDate object from the information given.
+This creates a LocalDate object from the information given.
 
 Month is an enum.
 
@@ -257,11 +259,11 @@ Month is an enum.
 
 An enum is a special type of class that contains a list of constants. 
 
-`Month` is an enum representing the 12 months of the year, it is defined in java.time
+`Month` Is an enum representing the 12 months of the year, it is defined in java.time
 
 You can test your controllers with postman, as demonstrated on the Student Controller.
 
 
-Now that our controllers are ready and tested we can start working on keeping our data persistant.
+Now that our controllers are ready and tested, we can start working on keeping our data persistent.
 
-[Getting ready for persistance](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Getting%20Ready%20for%20persistance.md)
+[Getting ready for persistence](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Getting%20Ready%20for%20persistance.md)

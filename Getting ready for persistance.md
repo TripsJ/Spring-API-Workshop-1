@@ -1,13 +1,13 @@
 
 # Introduction
 
-We now have a Rest Api with some Endpoints, However we are still working on Dummy Data.
+We now have a Rest API with some Endpoints, However we are still working on Dummy Data.
 
-In order to make a usable application we will need a way to store the data. 
+In order to make a usable application, we will need a way to store the data. 
 
-To achieve this, we will use a Mysql Database and add endpoints and methods for all CRUD operations. 
+To achieve this, we will use a MySQL Database and add endpoints and methods for all CRUD operations. 
 
-While doing that, we will learn a few new concepts like Service classes, Interfaces, Inheritance and dependencie Injection. 
+While doing that, we will learn a few new concepts like Service classes, Interfaces, Inheritance and dependencies Injection. 
 
 ## Dependencies.
 
@@ -19,7 +19,7 @@ we need to add a couple of dependencies to our project
 
 When we set up our project, we selected a build Manager for our project. We Chose Maven.
 
-Maven manages the dependencies of our project and to do that it uses a file called pom.xml. We can find that file at the root of our project and you might have taken a look at it before, specifically to verify that lombok was included.
+Maven manages the dependencies of our project, and to do that it uses a file called pom.xml. We can find that file at the root of our project and you might have taken a look at it before, specifically to verify that Lombok was included.
 Pom stands for Project Object Model.
 
 The contents of that file look like this
@@ -129,7 +129,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 ```
 
 The lines until <parent> contain information about the structure of the pom.xml itself as well as where to find its schema. 
-For our purposes we can leave those as is and you generally dont need to touch those as spring initializer should always include a current shema.
+For our purposes we can leave those as is and you generally don't need to touch those as spring initializer should always include a current schema.
 
 The <parent> section itself contains information about the version of spring boot that we use to create our project. And, unless you change the Framework version midway in a project, the Initializer takes care of setting this up too. 
 
@@ -150,17 +150,17 @@ Afterwards we find these lines:
 
 This s the information about our project that we gave the initializer when we generated the project.
 
-below that we define the properties of our project, wich currently just contains the version of java we use.
+Below that, we define the properties of our project, wich currently just contains the version of java we use.
 
-the <dependencies> section is where things get interesting,
+The <dependencies> section is where things get interesting,
 
-this section specifies which external packages our project needs to be build, these packages can that be retrieved by your IDE from Apache Maven's servers.
+this section specifies which external packages our project needs to be built, these packages can that be retrieved by your IDE from Apache Maven's servers.
 
-That way we dont have to manually add jar files to our project.
+That way, we don't have to manually add jar files to our project.
 
 
-Below the </dependencies> section we find the build section that contains information on plugins used to build our project.
-Project lombok icludes one such plugin.
+Below the </dependencies> section, we find the build section that contains information on plugins used to build our project.
+Project Lombok includes one such plugin.
 
 Optionally, there can also be a <reporting> section that includes its own plugins.
 
@@ -172,7 +172,7 @@ The Maven project website provides more detailed documentation on Maven and the 
 
 Adding a dependency is fairly easy.
 
-all dependencies follow the same structure and look a lot like this:
+All dependencies follow the same structure and look a lot like this:
 
 ```xml
 <dependency>
@@ -195,13 +195,13 @@ Now let us add the required packages.
 - spring-boot-starter-data-jpa
 - mysql-connector-j
 
-Search for each one of them and Select the latest version.
+Search for each one of them and select the latest version.
 
 The Website will propose Maven dependency blocks for each of them.
 
 ![[Pasted image 20230422141844.png]]
 
-Add those to your list of dependencies in your pom.xml file, save the file and left click on your pom.xml file in the project window, go to Maven => Update project.
+Add those to your list of dependencies in your pom.xml file, save the file and left-click on your pom.xml file in the project window, go to Maven => Update project.
 
 You end up in this window.
 
@@ -209,7 +209,7 @@ You end up in this window.
 
 Make sure your Project name is ticked as well as update Project configuration from pom.xml
 
-Click ok and your IDE will now import the missing packages.
+Click OK and your IDE will now import the missing packages.
 
 Once that is done, we can
 

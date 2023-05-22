@@ -187,11 +187,11 @@ public class Coach {
 
 ```
 
-If you now try to run this you can see that the Error we are getting changed to 
+If you now try to run this, you can see that the Error we are getting changed to 
 ```
 Property 'com.example.apiworkshop.Course.randomClass' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
 ```
 
-Wich means it is time to Talk about Arrays and Collections.
+Which means it is time to talk about Arrays and Collections.
 
 [[Collections]]

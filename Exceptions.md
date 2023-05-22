@@ -1,13 +1,14 @@
 ## What are exceptions
 
-An exception is the way for a Programm to react to unexpected behaviour or errors, such as a ressource not being available or an entry in a database that does not exist.
+An exception is the way for a Program to react to unexpected behaviour or errors, such as a resource not being available or an entry in a database that does not exist.
 
-Java, as well as many other programming Languages use a Mechanism called exceptions.
+Java, as well as many other programming Languages, use a Mechanism called exceptions.
 
 Exceptions, in the context of Java, are special objects that can interrupt the normal flow of a program and force it to end.
 
-For this reason Exceptions need to be handled.
-A lot of things you do in Java can cause Exceptions like FileNotFoundException or ArithmeticException and we usually handle them by wrapping our code in 
+For this reason, Exceptions need to be handled.
+A lot of things you do in Java can cause Exceptions like FileNotFoundException or ArithmeticException, and we usually handle them by wrapping our code in 
+```Java
 try{
 //Code that could fail goes here
 }
@@ -40,7 +41,7 @@ return foundStudent;
 }
 ```
 
-For clarification isEmpty() is a method from the Collections framework that allows to check if a collection is Empty.
+For clarification, isEmpty() is a method from the Collections framework that allows to check if a collection is empty.
 
 Spring also comes with prebuild error messages you can customize, but that is beyond the scope of this Workshop.
 

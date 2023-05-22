@@ -61,6 +61,6 @@ public interface StudentRepository extends JpaRepository<Student, Integer> {
 ```
 
 
-Finally we have all the pieces to rebuild our Controllers in a way that they can interact with our database.
+Finally, we have all the pieces to rebuild our Controllers in a way that they can interact with our database.
 
 [[Rebuilding Controllers]]

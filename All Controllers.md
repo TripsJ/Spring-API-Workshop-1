@@ -1,4 +1,4 @@
-Here i will show you the Same controller implemented for all our classes
+Here I will show you the Same controller implemented for all our classes
 
 
 ## PromotionController

@@ -1,4 +1,4 @@
-So once we create tables for everything our code should look similar to this:
+So once we create tables for everything, our code should look similar to this:
 
 ## Student class
 
@@ -147,8 +147,8 @@ public class Promotion {
 
 ```
 
-All we have done here is added the Entity and Table annotation as well as the Id and GeneratedValue once, just like we did in the Student class
+All we have done here is added the Entity and Table annotation as well as the ID and GeneratedValue once, just like we did in the Student class
 
-If you try and run this you'll be greeted by a random error from JDBC and that is due to the fact that right now Java doesent know how to handle references to other tables but we will fix that by introducing Relationships.
+If you try to run this you'll be greeted by a random error from JDBC and that is due to the fact that right now Java doesn't know how to handle references to other tables, but we will fix that by introducing Relationships.
 
 [[Relationships]]

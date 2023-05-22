@@ -1,7 +1,7 @@
 
 # Advanced Datatypes and Autoboxing.
 
-When we take a look at our cleaned up Student Class, we notice that there are variables of type String.
+When we have a look at our cleaned up Student Class, we notice that there are variables of type String.
 There are also Variables that end with [].
 
 ``` java
@@ -45,7 +45,7 @@ A String is an example of an Advanced Datatype.
 
 Strings are Objects and thus come with their own methods that can be called to work and Manipulate Stings. Strings are a representation of text.
 
-In the case of Strings, some of the methods included, are,
+In the case of Strings, some methods included, are,
 
 | Method               | Effect                             |
 | -------------------- | ---------------------------------- |
@@ -64,19 +64,19 @@ private Course[] courses;
 
 ```
 
-Variables who's type ends on [] are Arrays.
-Arrays are indexed collections of elements of a given Type.
+Variables whose type ends on [] are Arrays.
+Arrays are indexed collections of elements of a given type.
 
 In our case of type Course
-They allow us to store multiple Objects and retrieve them by their place in the list.
+They allow us to store multiple objects and retrieve them by their place in the list.
 
-let us define an array of type char and store a few letters in it.
+Let us define an array of type char and store a few letters in it.
 
 ```Java
 char[] letters = {'A','B','C'};
 ```
 
-to retrieve these, one would use a syntax like
+To retrieve these, one would use a syntax like:
 
 ```Java
 letters[0]; // Would return 'A'
@@ -103,8 +103,8 @@ Java has Wrapper classes that allow us to store the 8 primitive Datatypes in the
 | float     | Float     |
 | double    | Double    |
 
-You can use those just as you would the primitives but they are complete Objects, wich allows us to use Advanced Java features on them that are Object exclusive.
+You can use those just as you would the primitives, but they are complete Objects, which allows us to use Advanced Java features on them that are Object exclusive.
 
-Let us now  return to our Student class and finish cleaning it up.
+Let us now return to our Student class and finish cleaning it up.
 
 [Data Classes 2](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Dataclasses_2.md)

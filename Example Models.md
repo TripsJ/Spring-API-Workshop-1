@@ -264,7 +264,7 @@ private List<Promotion> headCoachOf;
 }
 ```
 
-With this our previously unsuccessful get requests are solved and we can test this with Postman
+With this, our previously unsuccessful get requests are solved, and we can test this with Postman
 
 ![[Pasted image 20230511115647.png]]
 
@@ -273,12 +273,12 @@ With this our previously unsuccessful get requests are solved and we can test th
 ## Finally
 
 
-Well Done, you have build an entier Api from scratch.
-There is much more you can do, like custom Database queries, Custom Error Messages, Or Setting values as mandatory but those can be part of an eventual part 2 of this workshop.
+Well done, you have built an entire API from scratch.
+There is much more you can do, like custom Database queries, Custom Error Messages, Or Setting values as mandatory, but those can be part of an eventual part 2 of this workshop.
 
-For now i can only encourage you to explore Spring on your Own.
+For now, I can only encourage you to explore Spring on your own.
 
-For Questions, Comments or suggestions do not hesitate to reach out to me through Github's Issues or even Fork this workshop and do a pull request.
+For Questions, Comments, or suggestions do not hesitate to reach out to me through GitHub's Issues or even fork this workshop and do a pull request.
 
 Thank You
 

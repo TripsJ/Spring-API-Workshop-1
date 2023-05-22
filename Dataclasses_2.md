@@ -3,7 +3,7 @@ Since we do not have any final attributes in our Class we can Replace @AllArgsCo
 A RequiredArgsConstructor would by default exclude all attributes marked as Final
 But wait.
 
-The combination of @ToString, @RequiredArgsConstructor, @Getter and @Setter is so common that lombok contains a shorthand annotation for all of those => @Data.
+The combination of @ToString, @RequiredArgsConstructor, @Getter and @Setter is so common that Lombok contains a shorthand annotation for all of those => @Data.
 lets use that on our Student class and remove the, now useless Annotations as well as their imports.
 
 ``` java
@@ -64,15 +64,15 @@ we need the following information on promotion
 
 ### The Coach class
 
-For a coach we need the following info
+For a coach, we need the following info
 
 
 
 | Name          | Datatype | Constant | Explanation                          |
 | ------------- | -------- | -------- | ------------------------------------ |
-| id            | int      | no       | Database row id                      |
-| name          | String   | no       | Coaches lastname                     |
-| firstname     | String   | no       | Coaches  firstname                   |
+| id            | int      | no       | Database row ID                      |
+| name          | String   | no       | Coaches last name                     |
+| firstname     | String   | no       | Coaches  first name                   |
 | expertise     | String[] | no       | list of subjects the coach can teach |
 | givingCourses | Course[] | no       | List of courses the coache teaches   |
 

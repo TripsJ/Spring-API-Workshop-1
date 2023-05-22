@@ -1,11 +1,11 @@
-Our aim is to implement so called CRUD operations in our code, so that a user can interact with our database by using only our API.
+Our aim is to implement so-called CRUD operations in our code, so that a user can interact with our database by using only our API.
 
 CRUD stands for Create, Read, Update, Delete wich are the four main operations we can execute on data.
 
 In JPA, these operations are implemented through a Repository.
 a Repository is an interface that extends from a Base Class.
 
-extends is the keyword Java uses to handle Inheritance
+Extends is the keyword Java uses to handle Inheritance
 
 ## Inheritance
 
@@ -13,7 +13,7 @@ In Object oriented programming, one of the main concepts you need to understand 
 
 Objects can pass on Attributes and Methods to other Objects that inherit from them.
 
-For example You Have a class Person
+For example, You Have a class Person
 
 ```Java
 
@@ -51,10 +51,10 @@ public class Teacher extends Person{
 }
 ```
 
-now my Teacher has access to the persons present method as well.
+Now my Teacher has access to the person's present method as well.
 
 super() calls the constructor of the parent class.
 
-Now that we know that, lets take a look at the repository i mentioned before.
+Now that we know that, let's have a look at the repository I mentioned before.
 
 [[Repository]]
