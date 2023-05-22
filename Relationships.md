@@ -105,4 +105,4 @@ As an exercise, try to establish the missing relations as shown above.
 
 I will show you all the classes on the next page.
 
-[[Established Relations]]
+[Established Relations](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Established%20Relations.md)
