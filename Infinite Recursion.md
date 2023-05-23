@@ -97,5 +97,5 @@ Accordingly, we need to add @JsonBackReference to the courses responsible coach 
 We need to modify the rest of our Models similarly. I Will show you my choices for each class on the next page, but choosing which side of a relationship to manage and which to exclude is ultimately up to you.
 
 
-[Example Models]
+[Example Models](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Example%20Models.md)
  
