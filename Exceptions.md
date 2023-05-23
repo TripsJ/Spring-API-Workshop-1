@@ -15,6 +15,7 @@ try{
 catch(exception e){
 // if exception e occurs do this. 
 }
+```
 
 ## Launching our own exceptions 
 
@@ -47,4 +48,4 @@ Spring also comes with prebuild error messages you can customize, but that is be
 
 Now that our getById() method can return an error, it is time to see how we can update a given entry. 
 
-[[Rebuilding Controllers 2]]
+[Rebuilding Controllers 2](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Rebuilding%20Controllers%202.md)
