@@ -207,7 +207,7 @@ Now we can test our StudentController Post method, using postman. Simply push a 
 
 After receiving saved, check your database via PhpMyAdmin and you should be seeing something like this.
 
-![[Pasted image 20230505200939.png]]
+![Pasted image 20230505200939.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230505200939.png)
 
 Great. We can add things to our database.
 But getting saved back is not exactly helpful. It would be better if we got the entry back we just added.
@@ -291,19 +291,19 @@ Now we can test our controllers by running a few get requests through Postman.
 
 ## Get All
 
-![[Pasted image 20230506145825.png]]
+![Pasted image 20230506145825.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230506145825.png)
 
 ## Get by Id
 
 With an existing id
 
-![[Pasted image 20230506150001.png]]
+![Pasted image 20230506150001.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230506150001.png)
 
 With one that does not exist.
 
-![[Pasted image 20230506150113.png]]
+![Pasted image 20230506150113.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230506150113.png)
 
 You might notice that returning null upon not finding anything still counts as a 200 OK Http Status code. And that is due to the fact that we did not define what to do in case of an error.
 
-[[Exceptions]]
+[Exceptions](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Exceptions.md)
 
