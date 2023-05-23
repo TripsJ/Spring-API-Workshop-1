@@ -275,6 +275,7 @@ With this, our previously unsuccessful get requests are solved, and we can test 
 
 Well done, you have built an entire API from scratch.
 There is much more you can do, like custom Database queries, Custom Error Messages, Or Setting values as mandatory, but those can be part of an eventual part 2 of this workshop.
+You can find the complete code for this workshop in the CourseApi folder. 
 
 For now, I can only encourage you to explore Spring on your own.
 
