@@ -12,17 +12,19 @@ This workshop assumes:
 
 - Knowledge of your chosen operating system
 
-Furthermore, this workshop uses Eclipse IDE, which is free. [Eclipse Downloads \| The Eclipse Foundation](https://www.eclipse.org/downloads/)
+Furthermore, this workshop uses Eclipse IDE, which is free. 
+[Eclipse Downloads \| The Eclipse Foundation](https://www.eclipse.org/downloads/)
 
   
 
-We will make use of MySQL as our database which you can either get from your distribution's repository, or from here: [MySQL:: MySQL Community Downloads] (https://dev.mysql.com/downloads/)
+We will make use of MySQL as our database which you can either get from your distribution's repository, or from here:
+[MySQL:: MySQL Community Downloads](https://dev.mysql.com/downloads/)
 
   
 
 You can install phpMyAdmin to have a graphical tool to work on your database. Again from your distro's repo or:
 
-[PhpMyAdmin] (https://www.phpmyadmin.net)
+[PhpMyAdmin](https://www.phpmyadmin.net)
 
   
 
@@ -32,7 +34,8 @@ The easiest way to get those up and running is a Docker container. A good tutori
 
   
 
-And I will use Postman for testing, which again can either be downloaded here: [Postman API Platform | Sign Up for Free] (https://www.postman.com) Or in your distribution's repository.
+And I will use Postman for testing, which again can either be downloaded here: 
+[Postman API Platform | Sign Up for Free](https://www.postman.com) Or in your distribution's repository.
 
   
 
@@ -64,7 +67,7 @@ The Workspace keeps track of your IDEs setup as well as configurations and Plugi
 
 3. Create a new Java Project. That project manages the Java Version used as well as the compiler and the Dependencies. Go To File \> New \> Java Project
 
-[Pasted image 20230329154838.png]
+[Pasted image 20230329154838.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230329154838.png)
 
   
 
@@ -72,11 +75,12 @@ The Workspace keeps track of your IDEs setup as well as configurations and Plugi
 
 File \> New \> Package
 
-[Pasted image 20230329155657.png]
+[Pasted image 20230329155657.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230329155657.png)
 
 And now we create a Class
 
-5. File \> New \> Class \[\[Pasted image 20230329155933.png\]\]
+5. File \> New \> Class
+  [Pasted image 20230329155933.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230329155933.png)
 
 6. You should have something like this
 
