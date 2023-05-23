@@ -87,4 +87,4 @@ Nothing too complicated here.
 
 And now we can do the same for our other Controllers.
 
-[[All Controllers]]
+[All Controllers](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/All%20Controllers.md)
