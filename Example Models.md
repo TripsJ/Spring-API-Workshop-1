@@ -266,7 +266,7 @@ private List<Promotion> headCoachOf;
 
 With this, our previously unsuccessful get requests are solved, and we can test this with Postman
 
-![[Pasted image 20230511115647.png]]
+![Pasted image 20230511115647.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230511115647.png)
 
 
 
@@ -280,6 +280,6 @@ For now, I can only encourage you to explore Spring on your own.
 
 For Questions, Comments, or suggestions do not hesitate to reach out to me through GitHub's Issues or even fork this workshop and do a pull request.
 
-Thank You
+*Thank You*
 
-Jérôme 
+***Jérôme Trips***
