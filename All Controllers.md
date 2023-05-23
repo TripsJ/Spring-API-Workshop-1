@@ -361,4 +361,4 @@ return "deleted";
 
 You will notice that they all follow the same pattern. They also all only import their respective Model and Repository.
 
-[[Infinite Recursion]]
+[Infinite Recursion](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/Infinite%20Recursion.md)
