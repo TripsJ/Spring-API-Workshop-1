@@ -67,7 +67,7 @@ The Workspace keeps track of your IDEs setup as well as configurations and Plugi
 
 3. Create a new Java Project. That project manages the Java Version used as well as the compiler and the Dependencies. Go To File \> New \> Java Project
 
-[Pasted image 20230329154838.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230329154838.png)
+![Pasted image 20230329154838.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230329154838.png)
 
   
 
@@ -75,12 +75,12 @@ The Workspace keeps track of your IDEs setup as well as configurations and Plugi
 
 File \> New \> Package
 
-[Pasted image 20230329155657.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230329155657.png)
+![Pasted image 20230329155657.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230329155657.png)
 
 And now we create a Class
 
 5. File \> New \> Class
-  [Pasted image 20230329155933.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230329155933.png)
+![Pasted image 20230329155933.png](https://github.com/TripsJ/Spring-API-Workshop-1/blob/main/0_Resources/Images/Pasted%20image%2020230329155933.png)
 
 6. You should have something like this
 
